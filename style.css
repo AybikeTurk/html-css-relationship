@@ -1,0 +1,192 @@
+body {
+    background-color: #E1C78F;
+}
+
+.mainmenubtn {
+    background-color: #B0926A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-child {
+    display: none;
+    background-color: #B0926A;
+    min-width: 200px;
+}
+
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+h2 {
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-optical-sizing: auto;
+    font-size: 5em;
+    color: #6b4b06;
+}
+
+#pageone {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 110px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #3c2706;
+}
+
+#pagetwo {
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-optical-sizing: auto;
+    font-size: 5em;
+    text-align: center;
+    color: #61481C;
+}
+
+img.first-photo {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+img.second-photo {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    position: absolute;
+    top: 200px;
+    right: 50px;
+}
+
+p {
+    position: absolute;
+
+    left: 500px;
+    top: 250px;
+
+    z-index: 3;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.columnone {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.rowone::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.rowone {
+    display: flex;
+}
+
+.columnone {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+#pagethree {
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-optical-sizing: auto;
+    font-size: 5em;
+    text-align: center;
+    color: #61481C;
+}
+
+#pagefour {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 100px;
+    color: #d11d44;
+    border-top: 2px solid #c30202;
+    border-bottom: 2px solid #c30202;
+}
+
+#siirone {
+    font-family: "Dancing Script", cursive;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    font-size: 2em;
+    text-align: center;
+    color: #750311;
+    position: absolute;
+    left: 400px;
+}
+
+#pagefive {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 100px;
+    color: #222222;
+    border-top: 2px solid #696969;
+    border-bottom: 2px solid #696969;
+}
+
+#fivepage {
+    font-family: "Dancing Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 3rem;
+    color: #525252;
+}
+
+#ses {
+    position: absolute;
+    right: 40%;
+}
+
+#yazi {
+    position: absolute;
+    right: 50%;
+}
